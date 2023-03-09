@@ -1,1 +1,5 @@
- pwd
+#!/bin/bash
+DIR=$(pwd)
+ABSDIR=$(readlink -f $DIR)
+echo $ABSDIR
+
