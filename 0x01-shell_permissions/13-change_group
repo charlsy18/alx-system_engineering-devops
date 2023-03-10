@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown school:$(id -gn) hello
+sudo chown school:(id -gn) hello
