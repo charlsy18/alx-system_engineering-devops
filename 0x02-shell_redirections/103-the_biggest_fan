@@ -1,0 +1,2 @@
+#!/bin/bash
+sort -t $'\t' -k 4 -n -r $log | awk -F '\t' '{print $1}' | uniq -c | sort -rn | head -11
